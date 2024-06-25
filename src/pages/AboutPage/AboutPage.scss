@@ -1,0 +1,13 @@
+@use '../../app';
+
+.bio-text-area {
+    color: app.$theme-text-color;
+
+    @media (min-width: 1000px) {
+        margin: 50vw;
+    }
+
+    @media (max-width: 1000px) {
+        margin-right: 10vw;
+    }
+}

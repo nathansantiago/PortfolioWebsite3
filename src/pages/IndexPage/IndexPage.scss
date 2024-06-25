@@ -1,0 +1,36 @@
+@use '../../app';
+
+.text-zone {
+    position: absolute;
+    left: 10vw;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 80vw;
+    max-height: 90vh;
+
+    h1 {
+        color: app.$theme-text-color;
+        font-size: 4rem;
+        font-family: Helvetica;
+
+        .letter {
+            min-width: 10px;
+            display: inline-block;
+            animation-fill-mode: both;
+
+            &:hover {
+                animation: rubberBand 1s;
+                color: app.$secondary-color;
+            }
+        }
+    }
+
+    h2 {
+        color: app.$subtitle-color;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: .75rem;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+    }
+}

@@ -1,0 +1,54 @@
+@use '../../app';
+
+body {
+    overflow-x: hidden;
+}
+
+.menu-icon {
+    position: fixed; 
+    right: 1rem;
+    top: 1rem; 
+    line-height: .25rem; 
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: app.$secondary-color;
+    z-index: 2;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: app.$nav-color;
+    transition: transform 300ms;
+    width: 50vw;
+    height: 100vh;
+    z-index: 1;
+
+    a {
+        text-decoration: none;
+        color: app.$theme-text-color;
+        font-size: 2rem;
+        display: block;
+        line-height: 2rem;
+        height: 25%;
+        top: 20%;
+        left: 15%;
+        position: relative;
+        transition: 300ms;
+
+        &:hover {
+            color: app.$secondary-color;
+            transform: scale(1.2);
+        }
+    }
+}
+
+.menu-inactive {
+    transform: translateX(100%);
+}
+
+.menu-active {
+    transform: translateX(0%);
+}
