@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Menu.scss'
 import { NavLink } from 'react-router-dom';
-import { AboutMeIcon, ContactMeIcon, HomeIcon, MenuIcon, PortfolioIcon, XIcon } from '../Icons';
+import { AboutMeIcon, ContactMeIcon, HomeIcon, MenuIcon, NIcon, PortfolioIcon, XIcon } from '../Icons';
 
 export default function Header () {
     const [showMenu, setShowMenu] = useState(false); // Determines if menu should be shown
@@ -11,7 +11,7 @@ export default function Header () {
             {/* If not showing menu show button */}
             {!showMenu && (
                 <button aria-label='Open Menu' onClick={() => setShowMenu(true)} className="menu-icon">
-                    <MenuIcon/>
+                    <NIcon/>
                     Menu
                 </button>
             )}
