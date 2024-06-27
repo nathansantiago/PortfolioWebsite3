@@ -12,14 +12,14 @@ export default function Header () {
             {!showMenu && (
                 <button aria-label='Open Menu' onClick={() => setShowMenu(true)} className="menu-icon">
                     <NIcon/>
-                    Menu
+                    
                 </button>
             )}
             {showMenu && (
                 <>
                     <button onClick={() => setShowMenu(false)} className="menu-icon">
-                    <XIcon/>
-                    Close
+                        <NIcon/>
+                    
                     </button>
                 </>
             )}

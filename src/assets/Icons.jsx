@@ -48,8 +48,9 @@ export function ContactMeIcon () {
 
 export function NIcon () {
     return(
-        <svg width="69.6" height="80.4" viewBox="0 0 69.6 80.4" xmlns="http://www.w3.org/2000/svg">
-            <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="currentColor" stroke-width="0.25 mm" fill="currentColor">
+        // .86567164 = width/height
+        <svg width="24" height="27.7242973" viewBox="0 0 69.6 80.4" xmlns="http://www.w3.org/2000/svg">
+            <g id="svgGroup" strokeLinecap="round" fillRule="evenodd" fontSize="9pt" stroke="currentColor" strokeWidth="0.25 mm" fill="currentColor">
                 <path d="M 69.6 80.4 L 66.6 80.4 L 66.6 0 L 69.6 0 L 69.6 80.4 Z M 56.4 80.4 L 53.4 80.4 L 53.4 0 L 56.4 0 L 56.4 80.4 Z M 63 80.4 L 60 80.4 L 60 0 L 63 0 L 63 80.4 Z M 16.2 80.4 L 13.2 80.4 L 13.2 0 L 16.2 0 L 16.2 80.4 Z M 3 80.4 L 0 80.4 L 0 0 L 3 0 L 3 80.4 Z M 9.6 80.4 L 6.6 80.4 L 6.6 0 L 9.6 0 L 9.6 80.4 Z M 49.8 47.4 L 49.8 52.7 L 19.8 9.6 L 19.8 4.3 L 49.8 47.4 Z M 49.8 70.6 L 49.8 75.9 L 19.8 32.8 L 19.8 27.5 L 49.8 70.6 Z M 49.8 59 L 49.8 64.3 L 19.8 21.2 L 19.8 15.9 L 49.8 59 Z" vectorEffect="non-scaling-stroke"/>
             </g>
         </svg>

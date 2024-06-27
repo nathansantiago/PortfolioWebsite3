@@ -6,8 +6,9 @@ body {
 
 .menu-icon {
     position: fixed; 
-    left: .75rem;
-    top: .75rem; 
+    display: flex;
+    left: 1.2rem;
+    top: 1.2rem; 
     line-height: .25rem; 
     background-color: transparent;
     border: 0;
