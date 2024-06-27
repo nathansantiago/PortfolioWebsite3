@@ -5,18 +5,19 @@ export default function AboutPage() {
         <div className="text-zone">
             <div>
                 <h1>
-                    <span className="word">
-                        <span className="letter">A</span>
-                        <span className="letter">b</span>
-                        <span className="letter">o</span>
-                        <span className="letter">u</span>
-                        <span className="letter">t</span>
-                        <span> </span>
-                    </span>
-                    <span className="word">
-                        <span className="letter">M</span>
-                        <span className="letter">e</span>
-                    </span>
+                    <div className="line">
+                        <span className="word">
+                            <span className="letter">A</span>
+                            <span className="letter">b</span>
+                            <span className="letter">o</span>
+                            <span className="letter">u</span>
+                            <span className="letter">t</span>
+                        </span>
+                        <span className="word">
+                            <span className="letter">M</span>
+                            <span className="letter">e</span>
+                        </span>
+                    </div>
                 </h1>
             </div>
             <div className="bio-text-area">

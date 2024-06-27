@@ -1,17 +1,63 @@
+@use '../../app';
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination {
+    margin-bottom: -.5rem;
+}
+
+.caption {
+    padding-bottom: 1rem;
+    text-align: center;
+    
+    a {
+        text-decoration: none;
+        color: app.$theme-text-color;
+    }
+}
+
+p {
+    color: app.$theme-text-color;
+}
+
 @media (min-width: 1000px) {
-    .swiper {
-        width: 100vw;
+    .portfolio-container {
+        display: flex;
+        align-items: center;
     }
 
-    .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 300px;
-        height: 300px;
-      }
-      
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-      }
+    .gallery-container {
+        position: absolute;
+        width: 39vw;
+        right: 0;
+        border-color: greenyellow;
+        border-style: dashed;
+    }
+
+    .text-container {
+        width: 39vw;
+        border-color: red;
+        border-style: dashed;
+    }
+}
+
+@media (max-width: 1000px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Menu.scss'
 import { NavLink } from 'react-router-dom';
-import { MenuIcon, XIcon } from '../Icons';
+import { AboutMeIcon, ContactMeIcon, HomeIcon, MenuIcon, PortfolioIcon, XIcon } from '../Icons';
 
 export default function Header () {
     const [showMenu, setShowMenu] = useState(false); // Determines if menu should be shown
@@ -25,15 +25,20 @@ export default function Header () {
             )}
 
             <nav className={`${showMenu ? 'menu-active' : 'menu-inactive'}`}>
-                <NavLink to={'/'} onClick={() => setShowMenu(false)}>
-                    Home
-                </NavLink>
-                <NavLink to={'/about'} onClick={() => setShowMenu(false)}>
-                    About
-                </NavLink>
-                <NavLink to={'/portfolio'} onClick={() => setShowMenu(false)}>
-                    Portfolio
-                </NavLink>
+                <div className='menu-icon-container'>
+                    <NavLink to={'/'} onClick={() => setShowMenu(false)} className='nav-icon'>
+                        <HomeIcon/>
+                    </NavLink>
+                    <NavLink to={'/portfolio'} onClick={() => setShowMenu(false)} className='nav-icon'>
+                        <PortfolioIcon/>
+                    </NavLink>
+                    <NavLink to={'/about'} onClick={() => setShowMenu(false)} className='nav-icon'>
+                        <AboutMeIcon/>
+                    </NavLink>
+                    <NavLink to={'/contact'} onClick={() => setShowMenu(false)} className='nav-icon'>
+                        <ContactMeIcon/>
+                    </NavLink>
+                </div>
             </nav>
         </>
     );

@@ -1,8 +1,15 @@
 @use '../../app';
 
 .text-zone {
+    @media (min-width: 442px) {
+        left: 10vw;
+    }
+
+    @media (max-width: 442px) {
+        left: 3vw;
+    }
+
     position: absolute;
-    left: 10vw;
     top: 50vh;
     transform: translateY(-50%);
     width: 80vw;
@@ -12,6 +19,15 @@
         color: app.$theme-text-color;
         font-size: 4rem;
         font-family: Helvetica;
+
+        .line {
+            display: flex;
+        }
+
+        .word {
+            flex-shrink: 0;
+            margin-right: 1rem;
+        }
 
         .letter {
             min-width: 10px;

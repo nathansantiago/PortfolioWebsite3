@@ -6,8 +6,8 @@ body {
 
 .menu-icon {
     position: fixed; 
-    right: 1rem;
-    top: 1rem; 
+    left: .75rem;
+    top: .75rem; 
     line-height: .25rem; 
     background-color: transparent;
     border: 0;
@@ -17,36 +17,40 @@ body {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     background: app.$nav-color;
     transition: transform 300ms;
-    width: 50vw;
+    width: 4.5rem;
     height: 100vh;
     z-index: 1;
+    
+    .menu-icon-container {
+        margin-top: 5rem;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
 
-    a {
-        text-decoration: none;
-        color: app.$theme-text-color;
-        font-size: 2rem;
-        display: block;
-        line-height: 2rem;
-        height: 25%;
-        top: 20%;
-        left: 15%;
-        position: relative;
-        transition: 300ms;
-
-        &:hover {
+        a.active {
             color: app.$secondary-color;
-            transform: scale(1.2);
+        }
+
+        .nav-icon {
+            width: 50%;
+            color: app.$theme-text-color;
+    
+            &:hover {
+                color: app.$secondary-color;
+            }
         }
     }
 }
 
 .menu-inactive {
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 
 .menu-active {
