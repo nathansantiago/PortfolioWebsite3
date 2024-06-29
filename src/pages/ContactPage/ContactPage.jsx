@@ -1,4 +1,6 @@
-import { MapContainer, TileLayer, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import  './ContactPage.scss';
 
 export default function ContactPage() {
     return (
@@ -27,8 +29,16 @@ export default function ContactPage() {
                     </p>
                 </div>
                 <div className="map-container">
-                    <MapContainer center={[51,0]} zoom={13}>
-                        <TileLayer attribution='contributer'/>
+                    <MapContainer center={[35.9132, -79.0558]} zoom={13} scrollWheelZoom={false}>
+                        <TileLayer
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        />
+                        <Marker position={[35.9132, -79.0558]}>
+                            <Popup>
+                                As a student at UNC, <br/> I currently live in the Chapel Hill area.
+                            </Popup>
+                        </Marker>
                     </MapContainer>
                 </div>
             </div>

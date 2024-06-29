@@ -38,20 +38,21 @@ p {
     .portfolio-container {
         display: flex;
         align-items: center;
-    }
 
-    .gallery-container {
-        position: absolute;
-        width: 39vw;
-        right: 0;
-        border-color: greenyellow;
-        border-style: dashed;
-    }
-
-    .text-container {
-        width: 39vw;
-        border-color: red;
-        border-style: dashed;
+        .gallery-container {
+            position: absolute;
+            width: 39vw;
+            right: 0;
+            border-color: greenyellow;
+            border-style: dashed;
+        }
+    
+        .text-container {
+            width: 39vw;
+            height: 80vh;
+            border-color: red;
+            border-style: dashed;
+        }
     }
 }
 

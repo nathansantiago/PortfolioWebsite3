@@ -1,18 +1,27 @@
 @use '../../app';
 
 .text-zone {
-    @media (min-width: 442px) {
-        left: 10vw;
+    // @media (min-width: 442px) {
+    //     left: 10vw;
+    // }
+
+    // @media (max-width: 442px) {
+    //     left: 3vw;
+    // }
+
+    @media (max-width: 1000px) {
+        width: 94vw;
+        left: 3vw;
     }
 
-    @media (max-width: 442px) {
-        left: 3vw;
+    @media (min-width: 1000px) {
+        width: 80vw;
+        left: 10vw;
     }
 
     position: absolute;
     top: 50vh;
     transform: translateY(-50%);
-    width: 80vw;
     max-height: 90vh;
 
     h1 {

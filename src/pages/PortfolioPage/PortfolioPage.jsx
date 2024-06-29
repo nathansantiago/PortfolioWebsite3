@@ -28,7 +28,7 @@ export default function PortfolioPage() {
         <div className="text-zone">
             <div className="portfolio-container">
                 <div className='text-container'>
-                    <h1>
+                    <h1 className='header'>
                         <div className="line">
                             <span className="word">
                                 <span className="letter">M</span>
