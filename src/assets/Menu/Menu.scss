@@ -17,7 +17,9 @@ body {
     z-index: 2;
 }
 
-nav {
+.nav-container {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,10 +28,14 @@ nav {
     width: 4.5rem;
     height: 100vh;
     z-index: 1;
+
+    nav {
+        height: 70%;
+        margin-top: 4.4rem;
+    }
     
     .menu-icon-container {
-        margin-top: 5rem;
-        height: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -45,6 +51,33 @@ nav {
     
             &:hover {
                 color: app.$secondary-color;
+            }
+        }
+    }
+
+    .social-links {
+        height: 30%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .social-link-icon-container {
+            height: 1.5rem;
+            width: 1.5rem;
+            padding: .25rem;
+
+            .social-link-icon {
+                svg {
+                    color: app.$theme-text-color;
+
+                    &:hover {
+                        color: app.$secondary-color;
+                    }
+                }
             }
         }
     }
