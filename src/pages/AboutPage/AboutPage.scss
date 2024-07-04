@@ -1,13 +1,45 @@
 @use '../../app';
 
-.bio-text-area {
-    color: app.$theme-text-color;
-
-    @media (min-width: 1000px) {
-        margin-right: 40vw;
+@media (min-width: 750px) {
+    .about-me-container {
+        display: flex;
+        align-items: center;
+        color: app.$theme-text-color;
+    
+        .text-container {
+            width: 50%;
+        }
+    
+        .headshot-container {
+            padding-left: 3rem;
+            width: 50%;
+    
+            img {
+                width: 100%;
+                border-radius: 100%;
+            }
+        }
     }
+}
 
-    @media (max-width: 1000px) {
-        margin-right: 10vw;
+@media (max-width: 750px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: app.$theme-text-color;
+    
+        .text-container {
+            width: 90%;
+        }
+    
+        .headshot-container {
+            width: 50%;
+    
+            img {
+                width: 100%;
+                border-radius: 100%;
+            }
+        }
     }
 }
