@@ -37,7 +37,7 @@ export default function AboutPage() {
                             I am passionate about game development, web applications, and data visualization.
                         </p>
                         <p>
-                            In my freetime I love to be outdoors. I enjoy rock climbing, fishing, running, and playing golf. 
+                            In my freetime I love to be outdoors. I enjoy rock climbing, fishing, mountain biking, and playing golf. 
                         </p>
                     </div>
                 </div>

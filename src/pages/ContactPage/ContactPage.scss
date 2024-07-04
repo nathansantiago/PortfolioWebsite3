@@ -16,6 +16,9 @@
             .leaflet-container {
                 height: 100%;
                 width: 100%;
+                animation: 1s backInRight;
+                animation-fill-mode: forwards;
+                margin-left: 1rem;
             }
         }
     }

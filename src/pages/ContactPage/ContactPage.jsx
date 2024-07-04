@@ -25,7 +25,7 @@ export default function ContactPage() {
                         </div>
                     </h1>
                     <p>
-                    I am interested in freelance opportunities and working on startups. I am especially intrested in projects that aim to improve our everyday lives. If you have any requests or questions, don't hesitate to contact me on LinkedIn.
+                    I am interested in freelance opportunities and working on startups. I am particularly interested in projects that aim to improve our everyday lives. If you have any requests or questions, don't hesitate to contact me on LinkedIn.
                     </p>
                 </div>
                 <div className="map-container">
@@ -36,7 +36,7 @@ export default function ContactPage() {
                         />
                         <Marker position={[35.9132, -79.0558]}>
                             <Popup>
-                                As a student at UNC, <br/> I currently live in the Chapel Hill area.
+                                I currently live in the Chapel Hill area and study at UNC.
                             </Popup>
                         </Marker>
                     </MapContainer>
