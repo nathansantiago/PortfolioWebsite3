@@ -1,4 +1,4 @@
-@use '../../app.scss';
+@use '../../App.scss';
 
 .text-zone {
     // @media (min-width: 442px) {
@@ -25,7 +25,7 @@
     max-height: 90vh;
 
     h1 {
-        color: app.$theme-text-color;
+        color: App.$theme-text-color;
         font-size: 4rem;
         font-family: Helvetica;
 
@@ -45,13 +45,13 @@
 
             &:hover {
                 animation: rubberBand 1s;
-                color: app.$secondary-color;
+                color: App.$secondary-color;
             }
         }
     }
 
     h2 {
-        color: app.$subtitle-color;
+        color: App.$subtitle-color;
         margin-top: 20px;
         font-weight: 400;
         font-size: .75rem;

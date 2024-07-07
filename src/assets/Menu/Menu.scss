@@ -1,4 +1,4 @@
-@use '../../app.scss';
+@use '../../App.scss';
 
 body {
     overflow-x: hidden;
@@ -13,7 +13,7 @@ body {
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    color: app.$secondary-color;
+    color: App.$secondary-color;
     z-index: 2;
 }
 
@@ -23,7 +23,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: app.$nav-color;
+    background: App.$nav-color;
     transition: transform 300ms;
     width: 4.5rem;
     height: 100vh;
@@ -42,15 +42,15 @@ body {
         align-items: center;
 
         a.active {
-            color: app.$secondary-color;
+            color: App.$secondary-color;
         }
 
         .nav-icon {
             width: 50%;
-            color: app.$theme-text-color;
+            color: App.$theme-text-color;
     
             &:hover {
-                color: app.$secondary-color;
+                color: App.$secondary-color;
             }
         }
     }
@@ -72,10 +72,10 @@ body {
 
             .social-link-icon {
                 svg {
-                    color: app.$theme-text-color;
+                    color: App.$theme-text-color;
 
                     &:hover {
-                        color: app.$secondary-color;
+                        color: App.$secondary-color;
                     }
                 }
             }
