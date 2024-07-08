@@ -42,7 +42,7 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className='headshot-container'>
-                    <img src="src\assets\photos\ProfessionalHeadshot1.jpg" alt="" />
+                    <img src=".\photos\ProfessionalHeadshot1.jpg" alt="" />
                 </div>
             </div>
         </div>

@@ -74,37 +74,37 @@ export default function PortfolioPage() {
                         }}
                     >
                         <SwiperSlide key={0}>
-                            <img src="public\photos\RamEatsLoginPage.png" alt="photo" />
+                            <img src=".\photos\RamEatsLoginPage.png" alt="photo" />
                             <div className='caption'>
                                 <a href="https://github.com/OwenMcAllister/RamEats" target='_blank'>Ram Eats</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="public\photos\SafeCuisinePrototype.png" alt="photo" />
+                            <img src=".\photos\SafeCuisinePrototype.png" alt="photo" />
                             <div className='caption'>
                                 <a href="" target='_blank'>Safe Cuisine</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="public\photos\AirbnbCloneHomepage.png" alt="photo" />
+                            <img src=".\photos\AirbnbCloneHomepage.png" alt="photo" />
                             <div className='caption'>
                                 <a href="https://github.com/nathansantiago/AirBnbClone" target='_blank'>AirBnb Clone</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="public\photos\AgriculturalWaterCalcScreenshot.png" alt="photo" />
+                            <img src=".\photos\AgriculturalWaterCalcScreenshot.png" alt="photo" />
                             <div className='caption'>
                                 <a href="https://devpost.com/software/agricultural-water-usage-calculator" target='_blank'>Agricultural Water Usage Calculator</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="public\photos\Game Sales for Publishers.13c49b5417b80e9a539a.jpg" alt="photo" />
+                            <img src=".\photos\Game Sales for Publishers.13c49b5417b80e9a539a.jpg" alt="photo" />
                             <div className='caption'>
                                 <a href="https://devpost.com/software/game-sales-for-publishers?ref_content=user-portfolio&ref_feature=in_progress" target='_blank'>Video Game Sales For Publishers</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="public\photos\USWeatherMap.62c4afcfc808d0d72bf0.png" alt="photo" />
+                            <img src=".\photos\USWeatherMap.62c4afcfc808d0d72bf0.png" alt="photo" />
                             <div className='caption'>
                                 <a href="https://github.com/nathansantiago/UnitedStatesWeather/tree/main" target='_blank'>Python Weather API</a>
                             </div>
