@@ -76,7 +76,7 @@ export default function PortfolioPage() {
                         <SwiperSlide key={0}>
                             <img src=".\photos\RamEatsLoginPage.png" alt="photo" />
                             <div className='caption'>
-                                <a href="https://github.com/OwenMcAllister/RamEats" target='_blank'>Ram Eats</a>
+                                <a href="https://github.com/nathansantiago/RamEatsVersionTwo" target='_blank'>Ram Eats</a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

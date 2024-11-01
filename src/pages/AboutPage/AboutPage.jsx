@@ -27,14 +27,14 @@ export default function AboutPage() {
                             I'm a Computer Science student studying at the University of North Carolina at Chapel Hill.  
                         </p>
                         <p>
-                            My programming journey began with making games on my DS and older brother's TI-84 using BASIC. 
+                            My programming journey began with making games on my older brother's TI-84 using BASIC. 
                             From there I began exploring game development in Unity with C#.
+                            In recent years I've become fascinated with ai and full stack web development, particulalry their applications in solving everyday problems.
                         </p>
                         <p>
-                            I continue to view programming as a creative outlet to express our wildest dreams. 
-                            Over the last year I've shifted my focus from game development to web development and data visualization. 
-                            I want to create web apps that have the potential to improve our everyday lives. 
-                            I am passionate about game development, web applications, and data visualization.
+                            I continue to view programming as a creative outlet where anything is possible. 
+                            I want to create apps that have the potential to improve our everyday lives. 
+                            I am passionate about web applications, data visualization, and artificial intelligence.
                         </p>
                         <p>
                             In my freetime I love to be outdoors. I enjoy rock climbing, fishing, mountain biking, and playing golf. 
