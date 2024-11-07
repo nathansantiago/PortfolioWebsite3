@@ -52,11 +52,11 @@ export default function IndexPage() {
                         Fullstack developer
                     </h2>
                 </div>
-                <div className="spline-container">
+                {/* <div className="spline-container">
                     <Spline
                         scene="https://prod.spline.design/aP4cotlzZdRz9F6U/scene.splinecode" className='disable-spline'
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );
