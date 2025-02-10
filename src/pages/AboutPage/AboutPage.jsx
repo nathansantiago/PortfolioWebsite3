@@ -24,7 +24,7 @@ export default function AboutPage() {
                     </div>
                     <div className="bio-text-area">
                         <p>
-                            I'm a Computer Science student studying at the University of North Carolina at Chapel Hill.  
+                            I'm a Computer Science and Geography student studying at the University of North Carolina at Chapel Hill.  
                         </p>
                         <p>
                             My programming journey began with making games on my older brother's TI-84 using BASIC. 
@@ -34,15 +34,18 @@ export default function AboutPage() {
                         <p>
                             I continue to view programming as a creative outlet where anything is possible. 
                             I want to create apps that have the potential to improve our everyday lives. 
-                            I am passionate about web applications, data visualization, and artificial intelligence.
+                            I enjoy nerding out about web applications, data visualization, and artificial intelligence.
                         </p>
                         <p>
-                            In my freetime I love to be outdoors. I enjoy rock climbing, fishing, mountain biking, and playing golf. 
+                            When I'm not noodling on VSCode, I love to be outdoors. I enjoy rock climbing, surfing, fishing, and playing golf. 
                         </p>
                     </div>
                 </div>
                 <div className='headshot-container'>
-                    <img src=".\photos\ProfessionalHeadshot1.jpg" alt="" />
+                    <img src=".\photos\Golf.jpeg" id="golf" alt="" />
+                    <img src=".\photos\Climbing.jpeg" alt="" />
+                    <img src=".\photos\Snowboarding.jpeg" alt="" />
+                    <img src=".\photos\Surfing.jpg" alt="" />
                 </div>
             </div>
         </div>

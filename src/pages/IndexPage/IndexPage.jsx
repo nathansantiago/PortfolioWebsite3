@@ -49,7 +49,7 @@ export default function IndexPage() {
                         </div>
                     </h1>
                     <h2 className='subheader'>
-                        Fullstack developer
+                        Fullstack developer @ Virnika
                     </h2>
                 </div>
                 {/* <div className="spline-container">
